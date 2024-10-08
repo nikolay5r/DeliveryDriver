@@ -9,7 +9,7 @@ public class House : MonoBehaviour
 
     private GameObject placeForDelivery;
 
-    public bool isWaiting = false;
+    [HideInInspector] public bool isWaiting = false;
 
     public void AskForDelivery()
     {

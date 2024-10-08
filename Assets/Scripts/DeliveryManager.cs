@@ -10,10 +10,10 @@ public class DeliveryManager : MonoBehaviour
     private GameObject[] houses;
     private GameObject currentPackage;
     private GameObject currentHouse;
-    
-    public bool isPackagePickedUp = false;
-    public bool isDelivering = false;
-    public bool isDeliveryAreaReached = false;
+
+    [HideInInspector] public bool isPackagePickedUp = false;
+    [HideInInspector] public bool isDelivering = false;
+    [HideInInspector] public bool isDeliveryAreaReached = false;
 
     public static DeliveryManager Instance;
     
@@ -26,14 +26,12 @@ public class DeliveryManager : MonoBehaviour
         }
     }
 
-    // Start is called before the first frame update
     void Start()
     {
         houses = GameObject.FindGameObjectsWithTag("House");
         currentPackage = Instantiate(packagePrefab, packageSpawnPoint);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (isPackagePickedUp && !isDelivering)
@@ -51,6 +49,7 @@ public class DeliveryManager : MonoBehaviour
             isPackagePickedUp = false;
             isDelivering = false;
             isDeliveryAreaReached = false;
+            currentPackage = Instantiate(packagePrefab, packageSpawnPoint);
         }
     }
 }
