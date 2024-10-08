@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1576197779414575317}
   - component: {fileID: 2330898133852524197}
   - component: {fileID: 3561687638990213470}
+  - component: {fileID: 2182912052286568542}
   m_Layer: 0
   m_Name: Blue Car
   m_TagString: Untagged
@@ -148,3 +149,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &2182912052286568542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3702799330795767116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf98379e55556449bc0ada446b8cf1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  steerSpeed: 150
+  moveSpeed: 10
