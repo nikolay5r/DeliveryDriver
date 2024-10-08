@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3442878922884983597}
   - component: {fileID: 2922019029113350951}
   - component: {fileID: 4786886234309935240}
+  - component: {fileID: 2878172372977528576}
   m_Layer: 0
   m_Name: Brown House
   m_TagString: House
@@ -131,6 +132,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 9.908007, y: 6.56}
   m_EdgeRadius: 0
+--- !u!114 &2878172372977528576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6204750848506431756}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 43e3d4a9edfa97a48a285d1f41be3c0a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7556720192898622671
 GameObject:
   m_ObjectHideFlags: 0
