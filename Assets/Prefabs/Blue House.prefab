@@ -175,3 +175,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 43e3d4a9edfa97a48a285d1f41be3c0a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  deliveryPoint: {fileID: 4502366497315820155}
+  placeForDeliveryPrefab: {fileID: 854737412178418847, guid: 8973dbe048889bd4f812a83ae0664552, type: 3}
+  isWaiting: 0
