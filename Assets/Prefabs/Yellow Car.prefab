@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3301507533818673373}
   - component: {fileID: 1178755708835673100}
   - component: {fileID: 4690282393825000787}
+  - component: {fileID: 4586025126637767555}
   m_Layer: 0
   m_Name: Yellow Car
   m_TagString: Untagged
@@ -163,3 +164,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steerSpeed: 300
   moveSpeed: 20
+--- !u!114 &4586025126637767555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9066592368528177193}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079790b4d3bb8e148a3989933a773db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

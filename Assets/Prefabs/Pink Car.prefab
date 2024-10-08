@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2073658112850979826}
   - component: {fileID: 2642515112105928909}
   - component: {fileID: 5667603233615078465}
+  - component: {fileID: -6345034354473284485}
   m_Layer: 0
   m_Name: Pink Car
   m_TagString: Untagged
@@ -163,3 +164,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steerSpeed: 225
   moveSpeed: 15
+--- !u!114 &-6345034354473284485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8209319151629640246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079790b4d3bb8e148a3989933a773db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
