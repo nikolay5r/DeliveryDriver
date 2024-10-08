@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2330898133852524197}
   - component: {fileID: 3561687638990213470}
   - component: {fileID: 2182912052286568542}
+  - component: {fileID: 3130180958812057722}
   m_Layer: 0
   m_Name: Blue Car
   m_TagString: Untagged
@@ -75,7 +76,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 5
   m_Sprite: {fileID: 21300000, guid: 1de70c3ef4466d0448ddc1179423e0d4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -163,3 +164,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   steerSpeed: 150
   moveSpeed: 10
+--- !u!114 &3130180958812057722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3702799330795767116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 079790b4d3bb8e148a3989933a773db8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
